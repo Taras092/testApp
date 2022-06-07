@@ -1,0 +1,148 @@
+.users {
+  padding: 140px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users__title {
+  margin: 0px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000de;
+}
+
+.users__info {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.user__info {
+  min-height: 254px;
+  width: 328px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.user__info_name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 280px;
+  white-space: nowrap;
+}
+
+.user-p {
+  margin: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 270px;
+  white-space: nowrap;
+}
+
+.users__button {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .users__title {
+    margin-bottom: 34px;
+  }
+
+  .users__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user__info {
+    width: 344px;
+    height: 254px;
+    margin-top: 16px;
+  }
+  .user__info:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .users__button {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (min-width: 1054px) {
+  .users__title {
+    margin-bottom: 34px;
+  }
+
+  .users__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user__info {
+    width: 282px;
+    height: 254px;
+    margin-top: 16px;
+  }
+  .user__info:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .user__info:nth-child(even) {
+    margin-right: 16px;
+  }
+
+  .user__info_name {
+    width: 242px;
+  }
+
+  .users__button {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .users__title {
+    margin-bottom: 34px;
+  }
+
+  .users__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user__info {
+    width: 370px;
+    height: 254px;
+    margin-top: 16px;
+  }
+  .user__info:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .user__info:nth-child(even) {
+    margin-right: 16px;
+  }
+
+  .user__info_name {
+    width: 242px;
+  }
+
+  .users__button {
+    margin-top: 54px;
+  }
+}

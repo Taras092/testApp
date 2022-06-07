@@ -1,0 +1,135 @@
+
+.top-section {
+  min-width: 360px;
+  background: #ffffff;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 16px;
+}
+
+.header__button {
+  margin-right: 16px;
+}
+
+.header__button_users {
+  margin-right: 10px;
+}
+.header__button_signup {
+  margin-left: 0px;
+}
+
+.section {
+  height: 500px;
+  min-width: 360px;
+}
+
+.section__img {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  z-index: 0;
+}
+
+.content {
+  padding: 40px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.content__title {
+  margin: 0px;
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.content__description {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.content__button {
+  margin-top: 32px;
+  margin-bottom: 71px;
+  z-index: 1;
+}
+
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 32px;
+  }
+
+  .header__button {
+    margin-right: 32px;
+  }
+
+  .content {
+    padding: 89px 194px;
+  }
+}
+
+@media screen and (min-width: 1054px) {
+  .logo {
+    margin-left: 60px;
+  }
+
+  .header__button {
+    margin-right: 60px;
+  }
+
+  .section {
+    height: 650px;
+  }
+
+  .section__img {
+    height: 650px;
+  }
+
+  .content {
+    padding: 164px 322px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .logo {
+    margin-left: 695px;
+  }
+
+  .header__button {
+    margin-right: 695px;
+  }
+
+  .section {
+    width: 1170px;
+    height: 650px;
+  }
+
+  .section__img {
+    width: 1170;
+    height: 650px;
+  }
+
+  .content {
+    padding: 265px 395px;
+  }
+}
