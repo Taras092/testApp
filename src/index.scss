@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  font-family: Nunito;
+  background: #e5e5e5;
+}
+
+.top-section {
+  min-width: 360px;
+  background: #ffffff;
+}
+
+@media screen and (min-width: 2560px) {
+  .page {
+    width: 1170px;
+  }
+}
